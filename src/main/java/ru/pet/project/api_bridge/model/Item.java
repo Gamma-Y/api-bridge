@@ -2,6 +2,7 @@ package ru.pet.project.api_bridge.model;
 
 import lombok.Data;
 
+import java.math.BigDecimal;
 import java.util.UUID;
 
 /**
@@ -11,6 +12,6 @@ import java.util.UUID;
 public class Item {
     private UUID id;
     private String name;
-    private double price;
+    private BigDecimal price;
     private int stock;
 }
